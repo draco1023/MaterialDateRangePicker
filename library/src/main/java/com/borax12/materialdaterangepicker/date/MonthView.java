@@ -477,7 +477,7 @@ public abstract class MonthView extends View {
             String localWeekDisplayName = mDayLabelCalendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, locale);
             String weekString = localWeekDisplayName.toUpperCase(locale).substring(0, 1);
 
-            if (locale.equals(Locale.CHINA) || locale.equals(Locale.CHINESE) || locale.equals(Locale.SIMPLIFIED_CHINESE) || locale.equals(Locale.TRADITIONAL_CHINESE)) {
+            if (Locale.CHINESE.getLanguage().equals(locale.getLanguage())) {
                 int len = localWeekDisplayName.length();
                 weekString = localWeekDisplayName.substring(len -1, len);
             }
