@@ -1,21 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group = 'org.ddr'
+group = 'com.github.draco1023'
 
 ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'material-datetime-rangepicker'
-
-    publishedGroupId = 'org.ddr.materialdaterangepicker'
-    libraryName = 'MaterialDateRangePicker'
-    artifact = 'library'
-
     libraryDescription = 'A material Date and Time Range Picker for Android'
 
     siteUrl = 'https://github.com/draco1023/MaterialDateRangePicker'
     gitUrl = 'https://github.com/draco1023/MaterialDateRangePicker.git'
-
-    libraryVersion = '1.9.3'
 
     developerId = 'draco1023'
     developerName = 'Draco'

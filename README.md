@@ -1,6 +1,6 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialDateRangePicker-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2501)
 
-[ ![Download](https://api.bintray.com/packages/borax12/maven/material-datetime-rangepicker/images/download.svg) ](https://bintray.com/borax12/maven/material-datetime-rangepicker/_latestVersion)
+[![](https://jitpack.io/v/draco1023/MaterialDateRangePicker.svg)](https://jitpack.io/#draco1023/MaterialDateRangePicker)
 
 Material Date and Time Picker with Range Selection
 ======================================================
@@ -15,11 +15,12 @@ Add the jcenter repository information in your build.gradle file like this
 
 repositories {
   jcenter()
+  maven { url 'https://jitpack.io' }
 }
 
 
 dependencies {
-  compile 'com.borax12.materialdaterangepicker:library:1.9'
+  implementation 'com.github.draco1023:MaterialDateRangePicker:1.9.4'
 }
 
 ```
